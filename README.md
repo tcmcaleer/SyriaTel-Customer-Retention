@@ -10,6 +10,7 @@ I decided to SMOTE the data, creating artificial data objects that are similar i
 ![smote](Images/SMOTE.png)
 ## Choosing a model
 ![xg_penalty](Images/XG_Penalty.png)
+
 I analyze each model in its base form for its recall and come to the conclusion XGBoost is the most effective. After several iterations, we find our best model. The only parameter left is to tweak is to determine its penalty. As we see, raising the penalty associated with XGBoost increases the model's recall at the cost of overall accuracy. I've highlighted what I believe to be the two best options. My intent here is to treat this model like a real world business conversation. In this scenario, I would present these two options to the company. We would discuss priorities and associated costs and come to a conclusion together.
 ## Conclusion
 I successfully created a model with a recall over 80%. The next steps of this business plan is to narrow the model to find the important factors that influence the customer's decision to leave, and propose ways we can change.
